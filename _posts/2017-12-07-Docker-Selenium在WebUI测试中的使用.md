@@ -52,6 +52,7 @@ f8afcb28a865        selenium/node-chrome-debug                                  
 debug结尾的镜像都带有VNC服务端，本机安装VNC客户端，即可远程连接。
 以chrome01的容器为例：
 输入172.16.1.119:6001-->回车-->输入密码：secret-->确认-->进入容器桌面
+![VNCViewer.png](http://upload-images.jianshu.io/upload_images/3961611-5c858de0595d7c3a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 - **编写UI测试用例**
 在这里使用Nodejs编写测试用例，记得要先 `npm install selenium-webdriver -g`
