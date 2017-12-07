@@ -41,11 +41,10 @@ docker的安装就不在这里做讲解了，大家Google一下就可以找到�
 - **查看正在运行的容器**
 	```
 	[root@Jelly-Test-119 ~]# docker ps
-CONTAINER ID        IMAGE                                                                                                                         COMMAND                  CREATED             STATUS              PORTS                    NAMES
-43c587f18fa2        selenium/node-firefox-debug                                                                                                   "/opt/bin/entry_point"   57 minutes ago      Up 57 minutes       0.0.0.0:7001->5900/tcp   firefox01
-f8afcb28a865        selenium/node-chrome-debug                                                                                                    "/opt/bin/entry_point"   About an hour ago   Up About an hour    0.0.0.0:6001->5900/tcp   chrome01
-8c5fa9854d38        selenium/hub                                                                                                                  "/opt/bin/entry_point"   About an hour ago   Up About an hour    0.0.0.0:4444->4444/tcp   selenium-hub
-
+	CONTAINER ID        IMAGE                                                                                                                         COMMAND                  CREATED             STATUS              PORTS                    NAMES
+	43c587f18fa2        selenium/node-firefox-debug                                                                                                   "/opt/bin/entry_point"   57 minutes ago      Up 57 minutes       0.0.0.0:7001->5900/tcp   firefox01
+	f8afcb28a865        selenium/node-chrome-debug                                                                                                    "/opt/bin/entry_point"   About an hour ago   Up About an hour    0.0.0.0:6001->5900/tcp   chrome01
+	8c5fa9854d38        selenium/hub                                                                                                                  "/opt/bin/entry_point"   About an hour ago   Up About an hour    0.0.0.0:4444->4444/tcp   selenium-hub
 	```
 #### VNC远程浏览器环境并测试
 - **VNC安装和使用**
